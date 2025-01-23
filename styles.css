@@ -1,0 +1,75 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: mediumturquoise;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 30px;
+  margin-top: 30px;
+}
+
+body h1 {
+  font-size: 52px;
+  letter-spacing: 0.1em;
+}
+
+body .inputHolder {
+  display: flex;
+  gap: 20px;
+  flex-direction: column;
+  width: 40%;
+}
+
+body .inputHolder input {
+  border: 2px solid black;
+  background-color: bisque;
+  height: 30px;
+  padding: 5px;
+}
+
+body .operatorsHolder {
+  display: grid;
+  grid-template-columns: repeat(2, 200px);
+  grid-template-rows: repeat(3, 70px);
+  gap: 20px;
+}
+
+body .operatorsHolder button {
+  background-color: blueviolet;
+  font-size: 60px;
+  border: 3px solid black;
+  transition: 0.2s;
+}
+
+body .operatorsHolder .isActive {
+  background-color: darkslateblue;
+  scale: 1.1;
+}
+
+body .operatorsHolder button:hover {
+  background-color: darkslateblue;
+}
+
+body > button {
+  width: 500px;
+  height: 60px;
+  font-size: 30px;
+  background-color: darkorange;
+  border-radius: 25px;
+  border: 3px solid black;
+  transition: 0.2s;
+}
+
+body > button:hover {
+  background-color: chocolate;
+  scale: 1.2;
+}
+
+body > p {
+  color: deeppink;
+  font-size: 60px;
+}
