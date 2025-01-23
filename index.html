@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>EasyCalc</title>
+    <link rel="stylesheet" href="./styles.css" />
+    <script src="script.js" defer></script>
+  </head>
+  <body>
+    <h1>Easy Calculator</h1>
+
+    <div class="inputHolder">
+      <input type="number" placeholder="Input first number" id="input1" />
+      <input type="number" placeholder="Input secont number" id="input2" />
+    </div>
+
+    <div id="operatorsHolder" class="operatorsHolder">
+      <button class="isActive" id="plus">+</button>
+      <button id="minus">-</button>
+      <button id="multiply">*</button>
+      <button id="divide">/</button>
+      <button id="exponentiation">**</button>
+      <button id="divisionWithRemainder">%</button>
+    </div>
+
+    <button id="submit">Calculate!</button>
+
+    <p id="result"></p>
+  </body>
+</html>
